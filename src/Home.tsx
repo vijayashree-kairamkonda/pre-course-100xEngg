@@ -14,7 +14,8 @@ export const Home = () => {
     <>
       <h1>HOME PAGE</h1>
       <hr />
-      <div>email : {email}</div>
+      <div>email : {email} </div>
+      
       <br />
       <div>username : {username}</div>
       <button onClick={() => navigate("/login")}>GO BACK</button>
